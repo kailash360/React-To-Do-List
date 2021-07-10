@@ -1,0 +1,39 @@
+:root {
+    --font-size: 2em;
+}
+
+.input-container {
+    width: fit-content;
+    height: fit-content;
+    margin: 1em auto;
+    padding: 1em;
+    box-shadow: 0px 0px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container input {
+    width: 500px;
+    padding: 2px;
+    font-size: var(--font-size);
+    background-color: transparent;
+    border: 2px solid rgb(168, 167, 167);
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input-container button {
+    height: fit-content;
+    width: fit-content;
+    margin-top: 0.8em;
+    padding: 2px 4px;
+    background-color: rgba(190, 0, 0, 0.719);
+    color: rgb(250, 221, 221);
+    font-size: var(--font-size);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 202, 202);
+}
