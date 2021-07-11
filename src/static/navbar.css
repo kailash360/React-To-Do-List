@@ -3,11 +3,10 @@
     height: fit-content;
     background-color: transparent;
     text-align: center;
-    padding: 1px 0px;
 }
 
 .navbar p {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bolder;
     color: white;
 }
