@@ -4,7 +4,7 @@ import '../static/navbar.css'
 function Navbar(){
     return(
         <>
-        <div class="navbar">
+        <div className="navbar">
             <p>To-Do List</p>
         </div>
         </>
