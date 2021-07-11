@@ -1,5 +1,5 @@
 :root {
-    --font-size: 2em;
+    --font-size: 1.5em;
 }
 
 .input-container {
@@ -30,10 +30,10 @@
     height: fit-content;
     width: fit-content;
     margin-top: 0.8em;
-    padding: 2px 4px;
-    background-color: rgba(190, 0, 0, 0.719);
+    padding: 5px 10px;
+    background-color: rgba(68, 10, 10, 0.719);
     color: rgb(250, 221, 221);
     font-size: var(--font-size);
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2px solid rgb(255, 202, 202);
 }
