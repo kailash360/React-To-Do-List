@@ -5,7 +5,7 @@
      background-color: transparent;
      margin-top: 10px;
      display: grid;
-     grid-template-columns: 80% 20%;
+     grid-template-columns: 90% 10%;
      border: 2px solid white;
      border-radius: 5px;
  }
@@ -13,4 +13,15 @@
  .row p {
      width: inherit;
      background-color: transparent;
+ }
+ 
+ .row button {
+     height: fit-content;
+     width: fit-content;
+     margin: auto;
+     font-size: 1.2em;
+     color: white;
+     background-color: transparent;
+     outline: none;
+     border: none;
  }

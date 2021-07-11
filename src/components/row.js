@@ -9,7 +9,7 @@ function Row ({task,update_list,key}){
             <p>{task}</p>
             <button type="button" onClick={()=>{
                 update_list(task)
-                }}>X</button>
+                }}><i class="fas fa-trash-alt"></i></button>
         </div>
     </>
     )
