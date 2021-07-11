@@ -1,0 +1,16 @@
+ .row {
+     width: 500px;
+     height: fit-content;
+     padding: 2px;
+     background-color: transparent;
+     margin-top: 10px;
+     display: grid;
+     grid-template-columns: 80% 20%;
+     border: 2px solid white;
+     border-radius: 5px;
+ }
+ 
+ .row p {
+     width: inherit;
+     background-color: transparent;
+ }

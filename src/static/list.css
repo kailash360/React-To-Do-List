@@ -1,0 +1,19 @@
+.list-container {
+    width: 500px;
+    height: fit-content;
+    margin: 0.5em auto;
+    padding: 3px 2px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.list-container p {
+    color: white;
+    font-weight: bolder;
+}
+
+.list {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
